@@ -56,7 +56,7 @@
         android:contentDescription="Current Grade Tally"
         android:editable="false"
         android:ems="10"
-        android:hint="Current Grade Tally Display"
+        android:hint="GPA Tally"
         android:inputType="textPersonName"
         android:visibility="visible"
         tools:layout_editor_absoluteX="71dp"
@@ -64,21 +64,35 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="wrap_content"
+        android:layout_width="227dp"
         android:layout_height="wrap_content"
         android:editable="false"
         android:ems="10"
         android:hint="Result"
         android:inputType="text"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="386dp" />
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="315dp" />
 
     <Button
         android:id="@+id/calcButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="320dp" />
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="137dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="291dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="143dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="145dp"></LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
